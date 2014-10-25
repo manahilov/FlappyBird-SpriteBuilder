@@ -35,6 +35,40 @@
 	<false/>
 	<key>nodeGraph</key>
 	<dict>
+		<key>animatedProperties</key>
+		<dict>
+			<key>0</key>
+			<dict>
+				<key>spriteFrame</key>
+				<dict>
+					<key>keyframes</key>
+					<array>
+						<dict>
+							<key>easing</key>
+							<dict>
+								<key>type</key>
+								<integer>0</integer>
+							</dict>
+							<key>name</key>
+							<string>spriteFrame</string>
+							<key>time</key>
+							<real>0.60000002384185791</real>
+							<key>type</key>
+							<integer>7</integer>
+							<key>value</key>
+							<array>
+								<string>FlappyBirdArtPack/fly2.png</string>
+								<string>Use regular file</string>
+							</array>
+						</dict>
+					</array>
+					<key>name</key>
+					<string>spriteFrame</string>
+					<key>type</key>
+					<integer>7</integer>
+				</dict>
+			</dict>
+		</dict>
 		<key>baseClass</key>
 		<string>CCSprite</string>
 		<key>children</key>
@@ -66,7 +100,7 @@
 			<key>density</key>
 			<real>1</real>
 			<key>dynamic</key>
-			<true/>
+			<false/>
 			<key>elasticity</key>
 			<real>0.30000001192092896</real>
 			<key>friction</key>
@@ -161,6 +195,11 @@
 				</array>
 			</dict>
 			<dict>
+				<key>baseValue</key>
+				<array>
+					<string>FlappyBirdArtPack/Donut-1@4x.png</string>
+					<string>Use regular file</string>
+				</array>
 				<key>name</key>
 				<string>spriteFrame</string>
 				<key>type</key>
@@ -185,8 +224,6 @@
 				</array>
 			</dict>
 		</array>
-		<key>selected</key>
-		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
@@ -242,7 +279,7 @@
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.60000002384185791</real>
+			<real>1.7999999523162842</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
